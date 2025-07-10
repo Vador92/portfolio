@@ -26,8 +26,52 @@
     font-size: 36px !important;
 }
 
+.about {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-style: groove;
+    border-color: whitesmoke;
+    margin: 45px 0 45px 0;
+    border-radius: 20px;   
+}
+
+.about .dogpic{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.about .aboutme {
+    margin-right: 30px;
+    width: 50%;
+}
+
+.about .aboutme .gotcha {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.about .aboutme .why {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about .aboutme .whymore{
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+
 .socials-container {
     display: flex;
+    position: sticky;
     justify-content: center;
     justify-self: center;
     align-content: center;
@@ -55,6 +99,3 @@
     width: 30px;
     height: 30px;
 }
-
-
-
