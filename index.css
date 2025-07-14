@@ -18,13 +18,16 @@
     font-family: 'myfontbold';
 }
 
+
 .name {
     margin-top: 30px;
     display: flex; 
     justify-content: center;
     height: auto;
     font-size: 36px !important;
+
 }
+
 
 .about {
     width: 30%;
@@ -40,6 +43,7 @@
     border-color: whitesmoke;
     margin: 45px 0 45px 0;
     border-radius: 20px;   
+    box-shadow: 5px 5px 5px purple;
 }
 
 .about .dogpic{
@@ -49,7 +53,7 @@
 
 .about .dogpic img {
     width: 200px;
-    box-shadow: 1px 1px 20px aqua;
+    border-radius: 20px;
 }
 
 .about .aboutme {
@@ -105,3 +109,12 @@
     width: 30px;
     height: 30px;
 }
+
+.expertise{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+}
+
+
