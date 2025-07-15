@@ -133,6 +133,17 @@
     align-self: center;
     justify-content: space-between;
     justify-self: center;
+    width: 30%;
+}
+
+.expertise .education{
+    width: 400px;
+    width: 400px;
+    border-style: groove;
+    border-radius: 20px;
 }
 
 
+.experience {
+    
+}
