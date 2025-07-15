@@ -16,3 +16,9 @@ body {
     color: white;
     font-size: 82px;
 }
+
+.whoiam {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
