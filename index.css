@@ -46,8 +46,15 @@ a:visited {
     color: purple;
     font-size: xx-large;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .whoiam .brief {
     margin: 0px 10px;
+}
+
+.projects {
+    margin-top: 40px;
+    background-color: white;
+    width: 50%;
 }
