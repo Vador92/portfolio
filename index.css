@@ -19,6 +19,18 @@ body {
 
 .whoiam {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
     margin-top: 30px;
+    border-style: groove;
+    width: 40%;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.whoiam .info {
+    color: purple;
+    font-size: xx-large;
 }
