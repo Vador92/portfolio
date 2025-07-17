@@ -24,9 +24,11 @@ a:visited {
     justify-content: center;
 }
 
+
 .name .title {
     color: white;
     font-size: 82px;
+    letter-spacing: 4px;
 }
 
 .whoiam {
@@ -40,21 +42,48 @@ a:visited {
     border-color: transparent;
     background-color: white;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .whoiam .info {
     color: purple;
     font-size: xx-large;
-    margin-top: 20px;
     font-weight: bold;
 }
 
-.whoiam .brief {
-    margin: 0px 10px;
+.whoiam .brief{
+    font-size: 18px;
 }
 
 .projects {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     background-color: white;
     width: 50%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+.projects .projectheader {
+    font-size: xx-large;
+    font-weight: bold;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.projects .caro {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.projects .caro .projectid {
+    
 }
