@@ -37,15 +37,34 @@
             Projects!
         </div>
         <div class="filter">
-            <button>All Projects</button>
-            <button>Web Dev</button>
-            <button>Game Dev</button>
+            <button class="filterbutton" onclick="openCity(event, 'all')">
+                <img src=""/>
+                All Projects</button>
+            <button class="filterbutton">
+                <img src=""/>
+                Web Dev
+            </button>
+            <button class="filterbutton">
+                <img src=""/>
+                Game Dev
+            </button>
         </div>
-        <div class="caro">
+        <div id="all" class="allprojects">
+            <div class="projectid">Portfolio</div>
+            <div class="projectid">Client CLI</div>
+            <div class="projectid">Kotlin Pizza App</div>
+        </div>
+        <div id="web" class="allprojects">
+            <div class="projectid">Portfolio</div>
+            <div class="projectid">Client CLI</div>
+            <div class="projectid">Kotlin Pizza App</div>
+        </div>
+        <div id="game" class="allprojects">
             <div class="projectid">Portfolio</div>
             <div class="projectid">Client CLI</div>
             <div class="projectid">Kotlin Pizza App</div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
