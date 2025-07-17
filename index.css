@@ -82,8 +82,16 @@ a:visited {
     align-items: center;
     justify-content: space-between;
     width: 60%;
+    overflow-x: hidden;
 }
 
 .projects .caro .projectid {
-    
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px
 }
+
