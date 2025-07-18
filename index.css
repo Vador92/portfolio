@@ -45,6 +45,27 @@ a:visited {
     padding: 20px;
 }
 
+@media screen and (max-width: 900px) {
+    .whoiam {
+        width: 90%;
+    }
+}
+
+.whoiam .doggypic{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+
+}
+
+
+.whoiam .doggypic img{
+    width: 40%;
+    height: 40%;
+    background-color: olivedrab;
+    border-radius: 20px;
+}
+
 .whoiam .info {
     color: purple;
     font-size: xx-large;
