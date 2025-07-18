@@ -89,36 +89,51 @@ a:visited {
     overflow: hidden;
 }
 
+@media screen and (max-width: 900px) {
+    .projects {
+        width: 90%;
+    }
+}
+
 
 .projects .projectheader {
     font-size: xx-large;
     font-weight: bold;
     color: goldenrod;
-    margin-bottom: 20px;
 }
 
-.projects .caro {
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-    overflow-x: hidden;
-}
-
-.projects .caro .projectid {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    justify-content: center;
-    background-color: aliceblue;
-    padding: 20px;
-    margin: 10px
+.projects .filter {
+    padding: 10px;
 }
 
 .projects .filter .filterbutton {
     background-color: transparent;
     border-color: transparent;
-
+    font-weight: bold;
+    font-size: 18px;
 }
+
+.projects .allprojects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    width: 60%;
+    height: 300px;
+}
+
+.projects .allprojects a:visited {
+    color: black;
+}
+
+.projects .allprojects a:link {
+    color: black;
+}
+
+
+.projects .allprojects .projectid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

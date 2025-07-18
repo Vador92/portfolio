@@ -37,34 +37,40 @@
             Projects!
         </div>
         <div class="filter">
-            <button class="filterbutton" onclick="openCity(event, 'all')">
+            <button class="filterbutton" onclick="openTab(event, 'all')">
                 <img src=""/>
                 All Projects</button>
-            <button class="filterbutton">
+            <button class="filterbutton" onclick="openTab(event, 'web')">
                 <img src=""/>
                 Web Dev
             </button>
-            <button class="filterbutton">
+            <button class="filterbutton" onclick="openTab(event, 'game')">
                 <img src=""/>
                 Game Dev
             </button>
         </div>
         <div id="all" class="allprojects">
+            <a href="https://github.com/Vador92/portfolio" target="_blank">
+                <div class="projectid">Portfolio</div>
+            </a>
+            <a href="https://github.com/Vador92/portfolio" target="_blank">
+                <div class="projectid">Kotlin Pizza App</div>
+            </a>
+            <a href="https://github.com/Vador92/portfolio" target="_blank">
+                <div class="projectid">Client CLI</div>
+            </a>
+        </div>
+        <div id="web" class="allprojects" style="display: none;">
             <div class="projectid">Portfolio</div>
             <div class="projectid">Client CLI</div>
             <div class="projectid">Kotlin Pizza App</div>
         </div>
-        <div id="web" class="allprojects">
-            <div class="projectid">Portfolio</div>
-            <div class="projectid">Client CLI</div>
-            <div class="projectid">Kotlin Pizza App</div>
-        </div>
-        <div id="game" class="allprojects">
+        <div id="game" class="allprojects" style="display: none;">
             <div class="projectid">Portfolio</div>
             <div class="projectid">Client CLI</div>
             <div class="projectid">Kotlin Pizza App</div>
         </div>
     </div>
-    <script src="index.html"></script>
+    <script src="index.js"></script>
 </body>
 </html>
