@@ -111,6 +111,10 @@ a:visited {
     width: 60%;
 }
 
+.projects .allthem .allprojects a {
+    color: black;
+}
+
 
 .projects .filter .filterbutton:hover {
     cursor:pointer;

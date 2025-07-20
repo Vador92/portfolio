@@ -1,6 +1,20 @@
 // will need this file
 function openTab(evt, tabName) {
-    var i, allprojects, filterbutton;
+    var i, allprojects, filterbuttons;
 
-    
+    // get the different category of projects
+    allprojects = document.getElementsByClassName("allprojects");
+    for (i = 0; i < allprojects.length; i++){
+        allprojects[i].style.display = "none";
+    }
+
+    filterbuttons = document.getElementsByClassName("filterbutton");
+    for (i = 0; i < filterbuttons.length; i++ ){
+        filterbuttons[i].className = filterbuttons[i].className.replace(" active", "");
+    }
+
+    document.getElementById(tabName).style.display = "flex";
+    evt.currentTarget.className += " active";
+
+    console.log("working");
 }
