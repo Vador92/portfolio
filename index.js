@@ -15,6 +15,4 @@ function openTab(evt, tabName) {
 
     document.getElementById(tabName).style.display = "flex";
     evt.currentTarget.className += " active";
-
-    console.log("working");
 }
