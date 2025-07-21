@@ -21,6 +21,6 @@ function openTab(evt, tabName) {
             filterbuttons[i].style.color = "green";
             continue;
         }
-        filterbuttons[i].style.color = "black";
+        filterbuttons[i].style.color = "gray";
     }
 }
