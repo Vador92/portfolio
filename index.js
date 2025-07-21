@@ -6,6 +6,7 @@ function openTab(evt, tabName) {
     allprojects = document.getElementsByClassName("allprojects");
     for (i = 0; i < allprojects.length; i++){
         allprojects[i].style.display = "none";
+        allprojects[i].style.color = "black";
     }
 
     filterbuttons = document.getElementsByClassName("filterbutton");
@@ -15,4 +16,11 @@ function openTab(evt, tabName) {
 
     document.getElementById(tabName).style.display = "flex";
     evt.currentTarget.className += " active";
+    for (i = 0; i < allprojects.length; i++ ){
+        if(filterbuttons[i].className === "filterbutton active"){
+            filterbuttons[i].style.color = "green";
+            continue;
+        }
+        filterbuttons[i].style.color = "black";
+    }
 }

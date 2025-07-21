@@ -120,6 +120,9 @@ a:visited {
     cursor:pointer;
 }
 
+
+
+
 @media screen and (max-width: 900px) {
     .projects {
         width: 90%;
