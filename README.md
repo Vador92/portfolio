@@ -2,18 +2,18 @@
 
 ## Checklist
 
-[] - import Poppins Font
-[] - add mock tagging system
-[] - particle background
-[] - cursor shadow?
-[] - make the cards breathe
+[ ] - import Poppins Font
+[ ] - add mock tagging system
+[ ] - particle background
+[ ] - cursor shadow?
+[ ] - make the cards breathe
 
 
 ## Post Reflection
 
-[] - animations I could add
-[] - reup the ui
-[] - add some actual thumbnails when I make other projects
+[ ] - animations I could add
+[ ] - reup the ui
+[ ] - add some actual thumbnails when I make other projects
 
 ## Finalized ?
 - will likely remake this by the end of the year
