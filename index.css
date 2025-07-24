@@ -1,6 +1,17 @@
+@font-face {
+    src: url("fonts/Poppins-Regular.ttf");
+    font-family: "main";
+}
+
+@font-face {
+    src: url("fonts/Poppins-Black.ttf");
+    font-family: "titles";
+}
+
 body {
     margin: 0px;
     background-color: aliceblue;
+    font-family: "main", sans-serif;
 }
 
 a {
@@ -22,6 +33,7 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "titles";
 }
 
 

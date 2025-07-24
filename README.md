@@ -2,7 +2,7 @@
 
 ## Checklist
 
-- [ ]  import Poppins Font
+- [x]  import Poppins Font
 - [ ]  add mock tagging system
 - [ ]  particle background
 - [ ]  cursor shadow?
