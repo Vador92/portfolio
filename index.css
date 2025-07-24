@@ -8,6 +8,11 @@
     font-family: "titles";
 }
 
+@font-face {
+    src: url("fonts/Poppins-Bold.ttf");
+    font-family: "subtitle";
+}
+
 body {
     margin: 0px;
     background-color: aliceblue;
@@ -76,6 +81,7 @@ a:visited {
     color: purple;
     font-size: xx-large;
     font-weight: bold;
+    font-family: "subtitle";
 }
 
 .whoiam .brief{
@@ -96,6 +102,7 @@ a:visited {
 
 .projects .projectheader {
     font-size: xx-large;
+    font-family: "subtitle";
     font-weight: bold;
     color: goldenrod;
 }
@@ -110,6 +117,7 @@ a:visited {
     font-weight: bold;
     font-size: 18px;
     color: gray;
+    font-family: "subtitle";
 }
 
 .projects .allthem {
