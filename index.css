@@ -121,7 +121,7 @@ a:visited {
 }
 
 .projects .allthem {
-    width: 70%;
+    width: 100%;
 }
 
 .projects .allthem .allprojects{
@@ -137,7 +137,7 @@ a:visited {
     height: 400px;
     border-radius: 20px;
     background-color: gray;
-    width: 200px;
+    width: 100%;
     margin: 0px 10px;
     display: flex;
     flex-direction: column;
@@ -182,65 +182,42 @@ a:visited {
 
 .projects .allthem .allprojects a .projectid .tags {
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     display: grid;
+    justify-content: space-between;
     margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
     height: 20%;
-    grid-row: 1;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .projects .allthem .allprojects a .projectid .tags .tag {
-    width: 50px;
-    height: 20px;
-    color: white;
-    background-color: black;
+    width: 40px;
+    height: 10px;
+    font-size: 12px;
+    color: black;
+    background-color: white;
     border-radius: 10px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-family: "subtitle";
 }
-
-.projects .allthem .allprojects a .projectid .tags .tag-js {
-    width: 50px;
-    height: 20px;
+.projects .allthem .allprojects a .projectid .tags .tag img {
+    stroke: white;
+    width: 10px;
+    height: 10px;
     color: white;
-    background-color: yellow;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    width: 50%;
+    alig
 }
-
-.projects .allthem .allprojects a .projectid .tags .tag-html {
-    width: 50px;
-    height: 20px;
-    color: white;
-    background-color: orange;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-
-.projects .allthem .allprojects a .projectid .tags .tag-css {
-    width: 50px;
-    height: 20px;
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-
-
 
 .projects .filter .filterbutton:hover {
     cursor:pointer;
