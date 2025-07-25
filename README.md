@@ -3,7 +3,8 @@
 ## Checklist
 
 - [x]  import Poppins Font
-- [ ]  add mock tagging system
+- [x]  add mock tagging system
+- [ ]  finish tagging system
 - [ ]  particle background
 - [ ]  cursor shadow?
 - [ ]  make the cards breathe
