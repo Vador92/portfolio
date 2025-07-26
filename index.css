@@ -54,24 +54,30 @@ a:visited {
     justify-self: center;
     margin-top: 30px;
     border-style: groove;
-    width: 40%;
+    width: 50%;
     border-color: transparent;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
 }
 
+.whoiam .text {
+    width: 60%;
+}
+
 .whoiam .doggypic{
     display: flex;
     padding: 5%;
+    height: 100%;
+    width: 40%;;
     justify-content: center;
 
 }
 
 
 .whoiam .doggypic img{
-    width: 40%;
-    height: 40%;
+    width: 70%;
+    height: 70%;
     background-color: olivedrab;
     border-radius: 20px;
 }
@@ -84,7 +90,7 @@ a:visited {
 }
 
 .whoiam .brief{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .projects {
@@ -244,6 +250,13 @@ a:visited {
 
     .whoiam {
         flex-direction: column;
+    }
+    .whoiam .text {
+        width: 90%;
+    }
+
+    .whoiam .img {
+        width: 90%;
     }
 }
 
