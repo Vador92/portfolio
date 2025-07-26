@@ -4,7 +4,7 @@
 
 - [x]  import Poppins Font
 - [x]  add mock tagging system
-- [ ]  make the get to know me flex column, and change based on size
+- [x]  make the get to know me flex column, and change based on size
 - [ ]  finish tagging system
 - [ ]  particle background
 - [ ]  cursor shadow?

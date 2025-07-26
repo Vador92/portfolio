@@ -186,22 +186,20 @@ a:visited {
 
 
 .projects .allthem .allprojects a .projectid .tags {
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
     display: grid;
     justify-content: space-between;
-    margin-top: 10px;
+    justify-items: center;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
     width: 100%;
-    height: 20%;
+    height: 30%;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .projects .allthem .allprojects a .projectid .tags .tag {
-    width: 50px;
-    height: 15px;
+    width: 70%;
+    height: 33%;
     font-size: 12px;
     color: black;
     background-color: white;
@@ -216,8 +214,8 @@ a:visited {
 }
 .projects .allthem .allprojects a .projectid .tags .tag img {
     stroke: white;
-    width: 10px;
-    height: 10px;
+    width: 50%;
+    height: 100%;
     color: white;
     background-color: white;
     width: 50%;
