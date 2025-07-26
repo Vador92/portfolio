@@ -41,7 +41,6 @@ a:visited {
     font-family: "titles";
 }
 
-
 .name .title {
     color: white;
     font-size: 82px;
@@ -50,7 +49,7 @@ a:visited {
 
 .whoiam {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-self: center;
     margin-top: 30px;
@@ -241,6 +240,10 @@ a:visited {
     .projects .allthem .allprojects a{
         width: 95%;
         margin-top: 20px;
+    }
+
+    .whoiam {
+        flex-direction: column;
     }
 }
 
