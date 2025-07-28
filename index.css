@@ -151,6 +151,7 @@ a:visited {
 .projects .projectslider .slide {
     width: 300px;
     height: 300px;
+    color: black;
     background-color: bisque;
     box-shadow: 3px 3px 5px;
     border-radius: 20px;
