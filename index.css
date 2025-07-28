@@ -116,3 +116,32 @@ a:visited {
         font-size: 48px;
     } 
 }
+
+
+@media screen and (max-width: 500px) {
+    #dog {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .name .title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .whoiam {
+        display: none;
+    }
+
+    .name {
+        height: 100vh !important;
+        background: none !important;
+        background-image: linear-gradient(aqua, green) !important;
+    }
+
+    .name .title {
+        transform: rotate(90deg);
+    }
+}
