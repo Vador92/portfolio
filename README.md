@@ -6,7 +6,7 @@
 - [x]  add mock tagging system
 - [x]  make the get to know me flex column, and change based on size
 - [x]  finish tagging system
-- [ ]  particle background
+- [x]  particle background
 - [x]  cursor shadow?
 
 ## Post Reflection
