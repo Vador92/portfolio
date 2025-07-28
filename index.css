@@ -179,6 +179,18 @@ a:visited {
     text-align: center;
 }
 
+.trail {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    top:0;
+    left:0;
+    pointer-events: none;
+    z-index: 99999999;
+}
+
 @media screen and (max-width: 1400px) {
     .whoiam {
         flex-direction: column;

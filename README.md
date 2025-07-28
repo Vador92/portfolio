@@ -7,14 +7,13 @@
 - [x]  make the get to know me flex column, and change based on size
 - [x]  finish tagging system
 - [ ]  particle background
-- [ ]  cursor shadow?
-- [ ]  make the cards breathe
-
+- [x]  cursor shadow?
 
 ## Post Reflection
 
 - [ ] animations I could add
 - [ ] reup the ui
+- [ ]  make the cards breathe
 - [ ] add some actual thumbnails when I make other projects
 
 ## Finalized ?
