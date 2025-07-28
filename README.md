@@ -5,7 +5,7 @@
 - [x]  import Poppins Font
 - [x]  add mock tagging system
 - [x]  make the get to know me flex column, and change based on size
-- [ ]  finish tagging system
+- [x]  finish tagging system
 - [ ]  particle background
 - [ ]  cursor shadow?
 - [ ]  make the cards breathe
