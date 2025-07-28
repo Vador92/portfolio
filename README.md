@@ -9,13 +9,6 @@
 - [x]  particle background
 - [x]  cursor shadow?
 
-## Post Reflection
-
-- [ ] animations I could add
-- [ ] reup the ui
-- [ ]  make the cards breathe
-- [ ] add some actual thumbnails when I make other projects
-
 ## Finalized ?
 - will likely remake this by the end of the year
 
