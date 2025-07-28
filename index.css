@@ -99,6 +99,7 @@ a:visited {
     justify-self: center;
     background-color: white;
     width: 50%;
+    min-height: 600px;
     margin-top: 30px;
     padding: 20px;
     border-radius: 20px;
@@ -139,7 +140,7 @@ a:visited {
 
 .projects .allthem .allprojects a {
     color: black;
-    height: 400px;
+    min-height: 400px;
     border-radius: 20px;
     background-color: gray;
     width: 100%;
