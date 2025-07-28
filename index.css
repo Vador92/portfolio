@@ -278,3 +278,9 @@ a:visited {
         transform: rotate(90deg);
     }
 }
+
+@media handheld {
+    .trail {
+        display: none;
+    }
+}
