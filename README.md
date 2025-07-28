@@ -16,7 +16,4 @@
 
 <img width="2304" height="1424" alt="image" src="https://github.com/user-attachments/assets/26574925-0e4c-498c-a5c6-f9f3e706f6da" />
 
-<img width="1902" height="914" alt="image" src="https://github.com/user-attachments/asset![Uploading Vador_s Pit.jpeg…]()
-s/749cac15-73ee-417e-8cd2-8d26425cb0bb" />
-
 <img width="5088" height="3784" alt="image" src="https://github.com/user-attachments/assets/557c8fbb-3425-42ac-8cb0-8755c08186ab" />
