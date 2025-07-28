@@ -166,6 +166,10 @@ a:visited {
     opacity: 1;
 }
 
+.projects .projectslider .slide:visited{
+    color: black;
+}
+
 .projects .projectslider .slide .pname {
     width: 300px;
     height: 200px;
