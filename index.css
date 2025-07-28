@@ -214,18 +214,14 @@ a:visited {
 }
 .projects .allthem .allprojects a .projectid .tags .tag img {
     stroke: white;
-    width: 50%;
-    height: 100%;
+    height: 80%;
     color: white;
     background-color: white;
     width: 50%;
 }
 
 .projects .allthem .allprojects a .projectid .tags .tag span {
-    stroke: white;
-    width: 10px;
-    height: 10px;
-    color: white;
+    color: black;
     background-color: white;
     width: 50%;
 }
@@ -255,6 +251,11 @@ a:visited {
 
     .whoiam .img {
         width: 90%;
+    }
+    
+    .projects .allthem .allprojects a .projectid .tags .tag img {
+        width: 20px;
+        height: 20px;
     }
 }
 
