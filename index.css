@@ -17,6 +17,7 @@ body {
     margin: 0px;
     background-color: aliceblue;
     font-family: "main", sans-serif;
+    cursor: none;
 }
 
 a {
