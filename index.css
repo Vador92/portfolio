@@ -286,7 +286,11 @@ a:visited {
     .rain1 {
         display: none;
     }
-    body {
+    html, body {
        overflow-x:hidden;
+    }
+    * {
+       box-sizing: border-box;
+       max-width: 100%;
     }
 }
