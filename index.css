@@ -260,31 +260,20 @@ a:visited {
     }
 }
 
-@media screen and (max-width: 250px) {
-    .whoiam {
-        display: none;
-    }
-
-    .name {
-        height: 100vh !important;
-        display: flex;
-        background: none !important;
-        align-items: center;
-        justify-content: center;
-        background-image: linear-gradient(aqua, green) !important;
-    }
-
-    #title {
-        transform: rotate(90deg);
-    }
-}
-
 @media (hover: none) and (pointer: coarse) {
     .trail {
         display: none;
     }
     .rain1 {
         display: none;
+    }
+
+    .whoiam {
+        box-shadow: none;
+    }
+
+    .projects {
+        box-shadow: none;
     }
 
     .projects .projectslider {
@@ -294,6 +283,10 @@ a:visited {
         align-items: center;
         overflow-x: hidden;
         margin-right: 0px !important;
+    }
+
+    * {
+        max-width: 100%;
     }
 
     *, body {
