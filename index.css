@@ -297,6 +297,8 @@ a:visited {
     }
 
     *, body {
+        overflow-x: hidden;
+        overflow-y: auto;
         align-items: center;
     }
 }
