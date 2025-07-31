@@ -286,4 +286,7 @@ a:visited {
     .rain1 {
         display: none;
     }
+    body {
+       overflow-x:hidden;
+    }
 }
