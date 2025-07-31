@@ -295,11 +295,8 @@ a:visited {
         overflow-x: hidden;
         margin-right: 0px !important;
     }
-    html, body {
-       overflow-x:hidden;
-    }
-    * {
-       box-sizing: border-box;
-       max-width: 100%;
+
+    *, body {
+        align-items: center;
     }
 }
